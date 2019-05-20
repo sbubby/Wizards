@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:fireball,tag=ball_a] at @s run tp @e[type=minecraft:area_effect_cloud,tag=ball_a,limit=1,sort=nearest]
+execute as @e[type=minecraft:area_effect_cloud,limit=16,tag=ball_a] at @s if entity @e[type=minecraft:fireball,tag=ball_a,distance=..3] run tp ^ ^ ^0.7
