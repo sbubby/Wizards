@@ -19,8 +19,8 @@
             {
               "function": "set_damage",
               "damage": {
-                "min": 0,
-                "max": 0.6
+              "min": 0,
+              "max": 0.6
               },
               "conditions": [
                 {
